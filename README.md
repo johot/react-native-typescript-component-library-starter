@@ -9,7 +9,7 @@ Makes it really easy to create react native components using typescript and publ
 
 ## Building your component library
 
-* Edit the file `components\package.json` with your details
+* Edit the file `library/package.json` with your details
 * Make sure to export your components from the `./library/index.ts` file.
 * When done run `npm run build-library` _(Important note: requires a bash console, powershell or cmd will not work)_. This will convert the typescript files into `.js` files and add `.d.ts` files.
 
