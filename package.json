@@ -20,7 +20,7 @@
     "android": "react-native-scripts-ts android",
     "ios": "react-native-scripts-ts ios",
     "test": "node node_modules/jest/bin/jest.js --watch",
-    "build-library": "cd library &&  tsc && cp package.json ../build/dist/ && Echo Build completed!",
+    "build-library": "cd library && tsc && cp package.json ../build/dist/ && Echo Build completed!",
     "publish-library": "cd build/dist && npm publish && echo Package published!"
   },
   "jest": {
